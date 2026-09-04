@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ProfileSidebar } from "@/components/ProfileSidebar";
+import { TitleMarquee } from "@/components/TitleMarquee";
 import { Noto_Sans, Playfair_Display } from "next/font/google";
 import { cn } from "@/lib/utils";
 
@@ -41,6 +42,7 @@ export default function RootLayout({
         />
       </head>
       <body className="flex min-h-screen flex-col">
+        <TitleMarquee />
         {/* 전역 배경 영상 고정 배치. 페이지 이동 시 재시작 없음. */}
         <div className="fixed inset-0 -z-10 overflow-hidden">
           {SITE_VIDEO_SRC ? (

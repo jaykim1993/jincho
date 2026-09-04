@@ -18,7 +18,10 @@ export function Header() {
           href="/"
           className="font-heading text-sm font-semibold tracking-tight text-foreground"
         >
-          Hyunjin Cho 
+          <span className="sm:hidden">Hyunjin Cho</span>
+          <span className="hidden sm:inline">
+            Hyunjin Cho | University of Iowa | Computer Science
+          </span>
         </Link>
         <div className="flex items-center gap-6">
           <nav>
