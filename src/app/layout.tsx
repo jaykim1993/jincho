@@ -11,7 +11,7 @@ const playfairDisplayHeading = Playfair_Display({subsets:['latin'],variable:'--f
 const notoSans = Noto_Sans({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
-  title: "Hyunjin(Jin) Cho | University of Iowa | Computer Science",
+  title: "Hyunjin Cho | University of Iowa | Computer Science",
   description: "Personal portfolio",
 };
 
